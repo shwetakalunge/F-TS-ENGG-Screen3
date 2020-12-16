@@ -372,7 +372,12 @@ select {
 }*/
 .pagination {
     display: inline-block;
-    margin-left: 12px
+    margin-left: 12px;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .pagination a {
