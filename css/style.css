@@ -1,0 +1,365 @@
+.clearfix {
+    zoom: 1
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+@font-face {
+    font-family: saira-bold;
+    src: url(Saira-Bold.ttf)
+}
+
+@font-face {
+    font-family: saira-regular;
+    src: url(Saira-Regular.ttf)
+}
+
+@font-face {
+    font-family: saira-medium;
+    src: url(Saira-Medium.ttf)
+}
+
+@font-face {
+    font-family: saira-Semibold;
+    src: url(Saira-SemiBold.ttf)
+}
+
+/*---------------------------------*/
+
+.Section_Login1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left {
+    /*    width: 20%;*/
+    left: 0;
+    background-color: white;
+    max-width: 230px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 230px
+}
+
+.right {
+    width: 100%;
+    /* max-width: 1048px;*/
+    flex: 1048px;
+    -webkit-box-flex: 1048px;
+    -ms-flex: 1048pxpx;
+    background: #E5E5E5;
+}
+
+
+h1 {
+    font-family: saira-bold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 57px;
+    color: #404040;
+    margin-left: 25px
+}
+
+ul {
+    text-align: center
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 0px;
+    color: #C7C7C7;
+    font-family: saira-regular;
+
+}
+
+li:hover,
+li:active {
+    background-color: #F3CABB;
+    border-radius: 4px;
+    color: black;
+    font-family: saira-medium;
+    width: 165px;
+    margin: auto
+}
+
+.section_logo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    /* margin: auto;*/
+}
+
+.section_logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo_class {
+    width: 100px;
+    height: 113px;
+}
+
+
+.home {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+p {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #542D21;
+    margin: 20px;
+}
+
+/*
+table {
+    border-collapse: collapse;
+     margin: 0px 36px 17px 25px;
+}
+
+th {
+    padding: 10px;
+    background: #F3CABB;
+    -webkit-box-shadow: inset 0px -2px 0px rgba(131, 87, 87, 0.17);
+    box-shadow: inset 0px -2px 0px rgba(131, 87, 87, 0.17);
+    border-radius: 0px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+td {
+    background: #FFFFFF;
+    ;
+    -webkit-box-shadow: inset 0px -1px 0px #E5E5E5;
+    box-shadow: inset 0px -1px 0px #E5E5E5;
+    letter-spacing: 0.25px;
+    border: 1px solid #E5E5E5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: saira-regular;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+td:nth-child(5) {
+    color: #008CDB;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+td:nth-child(7) {
+    color: #008CDB;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}*/
+
+table {
+    border-collapse: collapse;
+    margin: 0px 36px 17px 25px;
+}
+
+th {
+    padding: 18px 20px 18px 14px;
+    background: #F3CABB;
+    -webkit-box-shadow: inset 0px -2px 0px rgba(131, 87, 87, 0.17);
+    box-shadow: inset 0px -2px 0px rgba(131, 87, 87, 0.17);
+    border-radius: 0px;
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+tr {
+    font-family: saira-regular;
+
+}
+
+td {
+    background: #FFFFFF;
+    -webkit-box-shadow: inset 0px -1px 0px #E5E5E5;
+    box-shadow: inset 0px -1px 0px #E5E5E5;
+    letter-spacing: 0.25px;
+    border: 1px solid #E5E5E5;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 12px 6px;
+}
+
+td:nth-child(4) {
+    color: #008CDB;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+
+
+td:nth-child(7) {
+    color: #008CDB;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    word-break: break-all
+}
+
+footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.Section_PageResult {
+    float: right;
+    padding: 10px;
+}
+
+footer div:hover {
+    background-color: #EB5A2C;
+    border-radius: 50%;
+}
+
+
+
+select {
+    width: 230px;
+
+    font-family: saira-regular;
+    background-color: #F8F8F8;
+    border: 0.5px solid #CACACA;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/dropdown-symbol.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.select_box text {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #676767;
+}
+
+/*.select_box,
+.upload_box {
+    margin-bottom: 40px
+}*/
+
+.upload_box text {
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #676767;
+
+}
+
+.upload_box button {
+    width: 168px;
+    height: 40px;
+    background: #595959;
+    border-radius: 6.35px;
+    color: white;
+    font-family: saira-regular;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.upload_image {
+    margin-right: 10px;
+}
+
+
+.btn-full {
+
+    font-family: saira-regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #EB5A2C;
+    border-radius: 6.35px;
+    text-align: center;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+
+}
+
+.button_sec {
+    text-align: center;
+    margin: auto;
+}
+
+.modal-content h5 {
+
+    margin-top: 22px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: saira-Semibold;
+    line-height: 28px;
+    text-align: center;
+    /*  margin-bottom: 80px*/
+}
+
+
+.close {
+    margin-right: 25px;
+    margin-top: 22px;
+    cursor: pointer
+}
+
+/*.modal-content {
+    width: 746px;
+    height: 280px;
+
+}*/
