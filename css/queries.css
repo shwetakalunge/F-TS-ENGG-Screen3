@@ -1,6 +1,7 @@
 /*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
 @media only screen and (max-width:1200px) {
     table {
+        width: 80%;
         margin: auto
     }
 
@@ -9,8 +10,27 @@
         margin: auto;
     }
 
-    li {
+    #panel,
+    #flip {
+        visibility: visible;
+
+    }
+
+    ul {
         text-align: center;
+    }
+
+    ul li {
+        list-style: none;
+        cursor: pointer;
+        padding: 20px 0px;
+        color: #C7C7C7;
+        font-family: saira-regular;
+
+    }
+
+    .main_nav {
+        display: none
     }
 }
 
@@ -55,7 +75,7 @@
     }
 
     table {
-        width: 100%;
+        width: 85%;
         text-align: center;
         margin: auto
     }
@@ -66,11 +86,13 @@
 
     }
 
+    #panel,
+    #flip {
+        visibility: visible;
+
+    }
 
 }
 
 /*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
-@media only screen and (max-width:320px) {
-
-    
-}
+@media only screen and (max-width:320px) {}

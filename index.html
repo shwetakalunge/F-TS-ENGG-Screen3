@@ -30,12 +30,31 @@
             <section class="section_logo">
                 <img src="images/logo.png" class="logo_class">
             </section>
-            <ul>
+
+
+            <ul class="main_nav">
                 <li>Requirements</li>
                 <li data-toggle="modal" data-target="#exampleModal">Upload Model</li>
 
             </ul>
+
+      
+            <div id="flip">
+                <button style="  font-family: saira-regular;border: none; height: 45px;padding: 10px;cursor: pointer">Click For More Options</button>
+            
+            </div>
+            <div id="panel">
+                <ul>
+                   <li>Requirements</li>
+                <li data-toggle="modal" data-target="#exampleModal">Click Here</li>
+                </ul>
+
+            </div>
+
+
         </div>
+
+
         <div class="right">
             <div class="home">
                 <h1>Requirements</h1>
@@ -230,39 +249,52 @@
                     </tbody>
 
                 </table>
-                  <footer>
-                <section class="Section_Page"></section>
-                <div class="pagination">
-                    <a href="#"><img src="images/arrow-prev.png"></a>
-                    <a href="#">Prev</a>
-                    <a href="#">1</a>
-                    <a class="active" href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">5</a>
-                    <a href="#">6</a>
-                    <a href="#">7</a>
-                    <a href="#">8</a>
-                    <a href="#">9</a>
-                    <a href="#">10</a>
-                    <a href="#">Next</a>
-                    <a href="#"><img src="images/arrow-next.png"></a>
-                </div>
-                <section class="Section_PageResult">
-                    <text>Showing<b>&nbsp;1</b>&nbsp;to<b>&nbsp;20</b>&nbsp;of<b>&nbsp;100</b>&nbsp;Records</text>
-                </section>
-            </footer>
-     
-            </div>
+                <footer>
+                    <section class="Section_Page"></section>
+                    <div class="pagination">
+                        <a href="#"><img src="images/arrow-prev.png"></a>
+                        <a href="#">Prev</a>
+                        <a href="#">1</a>
+                        <a class="active" href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <a href="#">10</a>
+                        <a href="#">Next</a>
+                        <a href="#"><img src="images/arrow-next.png"></a>
+                    </div>
+                    <section class="Section_PageResult">
+                        <text>Showing<b>&nbsp;1</b>&nbsp;to<b>&nbsp;20</b>&nbsp;of<b>&nbsp;100</b>&nbsp;Records</text>
+                    </section>
+                </footer>
 
             </div>
-            
-      
+
+        </div>
+
+
     </section>
+
+    <!-------------------------------------------------------->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-
-</html>
+   
+    
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-------------------------------------------------------->
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+            
+            
+        });
+    </script>
+</body></html>
